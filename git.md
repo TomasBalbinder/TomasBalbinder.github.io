@@ -20,7 +20,7 @@ ___
 
 ## Práce s gitem:
 ___ 
-**A jak vlastně zjitím jestli mám už git nainstalovaný?**\
+### **A jak vlastně zjitím jestli mám už git nainstalovaný?**
 Tenhle postup je pouze pro operační systém Windows.
 
 ![cmd](cmd.PNG)
@@ -42,27 +42,37 @@ git config --global user.email “e-mail”
 ```
 git init - inicializuje adesář 
 ```
+Poté, pokud již máte vytvořené nějaké soubory (*myšleno u vás na disku - nějaký skrypt, nebo program co jste vytvořili*)  
+
+přichází na řadu:
 ```
-git status - ukáže stav v jakém se soubory nachází
+1. git status - ukáže jakém se soubory nachází stavu
+```
+**Soubor** je potřeba *označit*:\
+Je mnoho zpusobu jak to udělat, pár si jich tu ukážeme.
+* *(příponu lze bud úplně vymazat nebo samozřejmě napsat jakokoliv jinou)*
+```
+2. git add .exe - označí všechny soubory v adresáří s příponou 
+```
+
+```
+2. git add * - označí všechny soubory v adresáří 
 ```
 ```
-git add .exe - označí všechny soubory v adresáří s příponou 
-```
-```
-git add * - označí všechny soubory v adresáří 
-```
-```bash
-git add soubor - označí vybraný soubor
+2. git add soubor - označí vybraný soubor
 ``` 
 
-**git commit -m “pridal jsem novy komentar”** potvrzeni zmeny, vystižné komentare
-kazdy commit vtvoří novou verzy projektu
-pokažde když chceš soubor přidat nebo vymazat, editovat tak add a commit
+```
+3. git commit -m “komentář” - potvrzení změny vybraného souboru,
+každý commit uloží novou verzy projektu (na tvůj disk)
 takhle se postupuje kdykoliv kdyz menim jednu vec v souboru ne vice veci najednou
+```
 
-
-> git **commit** -am "komentář" 
-
+**Kombinace kde používate dva příkazy v jednom** Užitečné při updatech souboru.
+ **Nefunguje když chcete přidat soubor nový!!**.
+```
+git **commit** -am "komentář" 
+```
 
 **git log** historie commitu
 sipkama nahoru a dolu pohyb a ven z logu klavesou Q
