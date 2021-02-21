@@ -1,4 +1,4 @@
-## <ins> Základy GITu</ins>
+# <ins> Základy GITu</ins>
 <p>&nbsp;</p>
 
 ### Co dělá Git:
@@ -21,7 +21,7 @@ ___
 ## Práce s gitem:
 ___ 
 **A jak vlastně zjitím jestli mám už git nainstalovaný?**\
-Tenhle postup je pouze pro Windows.
+Tenhle postup je pouze pro operační systém Windows.
 
 zmáčknětě klavesovou zkratku `win + Q` poté napište **CMD** a zmáčketě `enter`
 
@@ -36,5 +36,11 @@ pro pozdější synchronizaci s Githubem
 git config --global user.name “jméno”
 git config --global user.email “e-mail”
 ```
+**při vytoření každného nového projektu je potřeba inizializovat složku
+ze které bude git nahlížet na soubory**
+
+`git init` - inicializuje adesář
+
+`git status` - ukáže stav v jakém se soubory nachází 
 
 
