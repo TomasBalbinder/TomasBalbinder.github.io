@@ -1,4 +1,4 @@
 
 
 
-# Základy GITu [link](Git.md)
+[## Základy GITu](Git.md)
