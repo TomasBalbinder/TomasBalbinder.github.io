@@ -1,6 +1,4 @@
-# <ins> Základy GITu</ins>
----
-___
+# <ins> Základy GITu_____________________</ins>
 <p>&nbsp;</p>
 
 ### Co dělá Git:
@@ -24,6 +22,8 @@ ___
 ___ 
 **A jak vlastně zjitím jestli mám už git nainstalovaný?**\
 Tenhle postup je pouze pro operační systém Windows.
+
+![cmd](git.png)
 
 zmáčknětě klavesovou zkratku `win + Q` poté napište **CMD** a zmáčketě `enter`
 
@@ -116,7 +116,4 @@ pote git status a info ze zobrazi
 git remote add origin pridani na github
 
 
-![cmd](git.png)
 
-* [x] Task
-* [] Task
