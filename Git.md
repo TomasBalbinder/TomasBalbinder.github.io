@@ -54,11 +54,12 @@ git add * - označí všechny soubory v adresáří
 git add soubor - označí vybraný soubor
 ``` 
 
-**git commit -m “pridal jsem novy komentar”** potvrzeni zmeny, vystižné komentare
+<code>**git commit -m “pridal jsem novy komentar”** potvrzeni zmeny, vystižné komentare
 kazdy commit vtvoří novou verzy projektu
 pokažde když chceš soubor přidat nebo vymazat, editovat tak add a commit
 takhle se postupuje kdykoliv kdyz menim jednu vec v souboru ne vice veci najednou
-```
+</code>
+
 git commit -am "komentář" 
 ```
 
