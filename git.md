@@ -117,6 +117,11 @@ pote git status a info ze zobrazi
 
 **git checkout** nazev zmena vetve 
 
+<p>
+Some Markdown text with <span style="color:red">git update-git-for-windows** update gitu </span>.
+
+</p>
+
 
 **git update-git-for-windows** update gitu 
 
