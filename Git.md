@@ -19,5 +19,11 @@
 ## Práce s gitem: 
 
 **git --version** zjistí verzy gitu, pokud nic nevypíše, nemáš ho 
-a je třeba ho instalovat **https://git-scm.com/**
+a je třeba ho instalovat [https://git-scm.com/](https://git-scm.com/)
+
+při prvním spuštění je potřeba vytvořit jmeno a email
+pro pozdější synchronizaci s Githubem
+
+**git config --global user.name “jméno”**    
+**git config --global user.email “e-mail”**
 
