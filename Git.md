@@ -20,11 +20,12 @@ ___
 
 ## Práce s gitem:
 ___ 
-**A jak vlastně zjitím jestli mám už git nainstalovaný?**
+**A jak vlastně zjitím jestli mám už git nainstalovaný?**\
 Tenhle postup je pouze pro Windows.
 
 zmáčknětě klavesovou zkratku `win + Q` poté napište **CMD** a zmáčketě `enter`
 
+poté piště již do konzole:\
 **git --version** zjistí verzy gitu, pokud nic nevypíše, nemáš ho 
 a je třeba ho instalovat [https://git-scm.com/](https://git-scm.com/)
 
