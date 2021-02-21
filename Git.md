@@ -5,7 +5,7 @@
 * zaznamenává historii vývoje projektu
 * dělá zálohy, kopie s metadaty
 * ukláda zálohy na disk
-
+<p>&nbsp;</p>
 
 
 ### Co dělá Github:
