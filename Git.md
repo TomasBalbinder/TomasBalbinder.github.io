@@ -29,7 +29,7 @@ poté piště již do konzole:\
 **git --version** zjistí verzy gitu, pokud nic nevypíše, nemáš ho 
 a je třeba ho instalovat [https://git-scm.com/](https://git-scm.com/)
 
-při prvním spuštění je potřeba vytvořit jmeno a email
+při prvním spuštění je potřeba vytvořit **jmeno** a **email**
 pro pozdější synchronizaci s Githubem
 
 ```
