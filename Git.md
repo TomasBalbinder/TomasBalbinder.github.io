@@ -38,20 +38,29 @@ git config --global user.email “e-mail”
 ```
 **při vytoření každného nového projektu je potřeba inizializovat složku
 ze které bude git nahlížet na soubory**
-
-`git init` - inicializuje adesář 
-
-`git status` - ukáže stav v jakém se soubory nachází
-   
-`git add .exe`  - označí všechny soubory v adresáří s příponou \
-`git add * ` - označí všechny soubory v adresáří \
-`git add soubor` - označí vybraný soubor 
+```
+git init - inicializuje adesář 
+```
+```
+git status - ukáže stav v jakém se soubory nachází
+```
+```
+git add .exe - označí všechny soubory v adresáří s příponou 
+```
+```
+git add * - označí všechny soubory v adresáří 
+```
+```
+git add soubor - označí vybraný soubor
+``` 
 
 **git commit -m “pridal jsem novy komentar”** potvrzeni zmeny, vystižné komentare
 kazdy commit vtvoří novou verzy projektu
 pokažde když chceš soubor přidat nebo vymazat, editovat tak add a commit
 takhle se postupuje kdykoliv kdyz menim jednu vec v souboru ne vice veci najednou
-
+```
+git commit -am "komentář" 
+```
 
 **git log** historie commitu
 sipkama nahoru a dolu pohyb a ven z logu klavesou Q
