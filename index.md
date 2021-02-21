@@ -1,5 +1,5 @@
 
 
 
-## [Základy GITu](Git.md)
+## [Základy GITu](git.md)
 ## [Základy Pythonu](Python.md)
