@@ -25,21 +25,20 @@ Tenhle postup je pouze pro operační systém Windows.
 
 ![cmd](cmd.PNG)
 
-zmáčknětě klavesovou zkratku `win + Q` , poté napište **CMD** a zmáčketě `enter` \
+Zmáčkněte klavesovou zkratku `win + Q` , poté napište **cmd** a zmáčkěte `enter` \
 pak už piště do konzole:
 ```
 git --version - Zjistí verzy gitu, pokud nic nevypíše, nemáš ho 
 a je třeba ho instalovat [https://git-scm.com/](https://git-scm.com/)
 ```
 Při prvním spuštění je potřeba vytvořit **jmeno** a **email**
-pro pozdější synchronizaci s Githubem
+pro pozdější synchronizaci s **Githubem**.
 
 ```
 git config --global user.name “jméno”
 git config --global user.email “e-mail”
 ```
-**při vytoření každného nového projektu je potřeba inizializovat složku
-ze které bude git nahlížet na soubory**
+**Při vytoření každného nového projektu je potřeba inizializovat složkuze které bude git nahlížet na soubory.**
 ```
 git init - inicializuje adesář 
 ```
