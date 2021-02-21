@@ -39,8 +39,11 @@ git config --global user.email “e-mail”
 **při vytoření každného nového projektu je potřeba inizializovat složku
 ze které bude git nahlížet na soubory**
 
-`git init` - inicializuje adesář
+`git init` - inicializuje adesář\
+`git status` - ukáže stav v jakém se soubory nachází\ 
 
-`git status` - ukáže stav v jakém se soubory nachází 
+`git add .exe`  - označí všechny soubory v adresáří s příponou\
+`git add * ` - označí všechny soubory v adresáří\
+`git add soubor` označí vybraný soubor\
 
 
