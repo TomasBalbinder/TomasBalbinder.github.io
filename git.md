@@ -25,13 +25,13 @@ Tenhle postup je pouze pro operační systém Windows.
 
 ![cmd](cmd.PNG)
 
-zmáčknětě klavesovou zkratku `win + Q` poté napište **CMD** a zmáčketě `enter`
-
-poté piště již do konzole:\
-**git --version** zjistí verzy gitu, pokud nic nevypíše, nemáš ho 
+zmáčknětě klavesovou zkratku `win + Q` , poté napište **CMD** a zmáčketě `enter` \
+pak už piště do konzole:
+```
+git --version - Zjistí verzy gitu, pokud nic nevypíše, nemáš ho 
 a je třeba ho instalovat [https://git-scm.com/](https://git-scm.com/)
-
-při prvním spuštění je potřeba vytvořit **jmeno** a **email**
+```
+Při prvním spuštění je potřeba vytvořit **jmeno** a **email**
 pro pozdější synchronizaci s Githubem
 
 ```
