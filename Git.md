@@ -2,6 +2,7 @@
 <p>&nbsp;</p>
 
 ### Co dělá Git:
+___
 * zaznamenává historii vývoje projektu
 * dělá zálohy, kopie s metadaty
 * ukláda zálohy na disk
@@ -9,18 +10,20 @@
 
 
 ### Co dělá Github:
+___
 * je místo kam můžeš nahrát svoji aplikaci, svůj kod.
 * je veřejný server - cloud 
-* funguje bez git a naopak
+* funguje bez GITu a naopak
 * je to jen jedna z možností
 * ukláda zálohy na disk
 * je úplně zadarmo
 
-## Práce s gitem: 
+## Práce s gitem:
+___ 
 **A jak vlastně zjitím jestli mám už git nainstalovaný?**
 Tenhle postup je pouze pro Windows.
 
-zmáčknětě klavesovou zkratku ```win + Q``` poté napište **CMD** a zmáčketě ```enter```
+zmáčknětě klavesovou zkratku `win + Q` poté napište **CMD** a zmáčketě `enter`
 
 **git --version** zjistí verzy gitu, pokud nic nevypíše, nemáš ho 
 a je třeba ho instalovat [https://git-scm.com/](https://git-scm.com/)
