@@ -1,4 +1,6 @@
 # <ins> Základy GITu</ins>
+---
+___
 <p>&nbsp;</p>
 
 ### Co dělá Git:
@@ -6,7 +8,7 @@ ___
 * zaznamenává historii vývoje projektu
 * dělá zálohy, kopie s metadaty
 * ukláda zálohy na disk
-<p>&nbsp;</p>
+
 
 
 ### Co dělá Github:
@@ -50,7 +52,7 @@ git add .exe - označí všechny soubory v adresáří s příponou
 ```
 git add * - označí všechny soubory v adresáří 
 ```
-```
+```bash
 git add soubor - označí vybraný soubor
 ``` 
 
@@ -99,7 +101,6 @@ master je hlavni vetev kodu
 **git merge** 
 
 **git push origin master** dáváme soubory na internet - github
-
 **git remote update** natahne info ze serveru
 pote git status a info ze zobrazi
 
@@ -115,4 +116,7 @@ pote git status a info ze zobrazi
 git remote add origin pridani na github
 
 
+![cmd](git.png)
 
+* [x] Task
+* [] Task
