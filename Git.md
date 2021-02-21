@@ -16,3 +16,8 @@
 * ukláda zálohy na disk
 * je úplně zadarmo
 
+## Práce s gitem: 
+
+**git --version** zjistí verzy gitu, pokud nic nevypíše, nemáš ho 
+a je třeba ho instalovat **https://git-scm.com/**
+
