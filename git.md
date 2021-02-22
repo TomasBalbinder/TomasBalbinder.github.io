@@ -18,6 +18,40 @@ ___
 * ukláda zálohy na disk
 * je úplně zadarmo
 
+
+
+## Práce s Githubem
+___
+Jdi na stránku [GitHub](www.github.com) a zaregistruj se tam.\
+Github má spoustu udělátek, ale ty teď řešit nebudem.
+
+Důležité je najít `tohle`:
+
+![repozitory](repozitory.PNG)
+
+Poté najít ještě `tohle`:
+
+![new](new.PNG)
+
+Pak už jen jméno repozítáře(jmeno projektu)
+Úplně dole zaškrnout `Add a README file` a taky `Choose a license`
+
+a kliknout na `CREATE REPOSITORY` 
+
+## Hotovo!
+Vzdálený repozitář máme vytvořený.
+
+## Jak propojit GitHub s Gitem?
+---
+**Jednoduše!**
+## Tenhle příkaz je číslo jedna! 
+Vytvoří repozítář ve vašem uložišti a můžete rovnou přeskočit na bod `2`. \
+`0`
+``` 
+git clone adresa
+```
+
+![clone](clone.PNG)
 ## Práce s gitem:
 ___ 
 ### **A jak vlastně zjitím jestli mám už git nainstalovaný?**
@@ -45,77 +79,95 @@ git init - inicializuje adesář
 Poté, pokud již máte vytvořené nějaké soubory (*myšleno u vás na disku - nějaký skrypt, nebo program co jste vytvořili*)  
 
 přichází na řadu:
+
+`1`
 ```
-1. git status - ukáže jakém se soubory nachází stavu
+git status - ukáže jakém se soubory nachází stavu
 ```
 **Soubor** je potřeba *označit*:\
 Je mnoho zpusobu jak to udělat, pár si jich tu ukážeme.
-* *(příponu lze bud úplně vymazat nebo samozřejmě napsat jakokoliv jinou)*
-```
-2. git add .exe - označí všechny soubory v adresáří s příponou 
-```
+* *(příponu lze bud úplně vymazat nebo samozřejmě napsat jakokoliv jinou)* 
 
+`2`
 ```
-2. git add * - označí všechny soubory v adresáří 
-```
-```
-2. git add soubor - označí vybraný soubor
+git add .exe - označí všechny soubory v adresáří s příponou 
+
+git add * - označí všechny soubory v adresáří 
+
+git add soubor - označí vybraný soubor 
 ``` 
+---
+<p>&nbsp;</p>
+* Každý commit uloží novou verzy projektu (na tvůj disk). \
+
+* **Takhle se postupuje kdykoliv když budeš měnit jednu věc v tvém programu, souboru, prjektu.** \
+* *Kombinace kde používáte dva příkazy v jednom
+je užitečná při jakekoliv změně souboru.*\
+**Nefunguje když chcete přidat soubor nový!**.
+
+`3`
+```
+git commit -m “komentář” - potvrzení změny vybraného souboru
+
+git commit -am "komentář" - spojení 'add' s 'commitem'
+```
+---
+`4`
+```
+git push origin main - poslání souboru na internet
+```
+```
+git log - zobrazí historii commitu
+```
+Pohyb v logu je pomocí šipek nahoru a dolů. Ven z logu se dostanem pomocí klavesy `Q`.
+
+
 
 ```
-3. git commit -m “komentář” - potvrzení změny vybraného souboru,
-každý commit uloží novou verzy projektu (na tvůj disk)
-takhle se postupuje kdykoliv kdyz menim jednu vec v souboru ne vice veci najednou
+git diff - zobrazí změny v souborech podrobněji než log
 ```
 
-**Kombinace kde používate dva příkazy v jednom** Užitečné při updatech souboru.
- **Nefunguje když chcete přidat soubor nový!!**.
 ```
-git **commit** -am "komentář" 
+git checkout -- 'jmeno souboru'  - vrátí soubor do poslední verze commitu.
 ```
 
-**git log** historie commitu
-sipkama nahoru a dolu pohyb a ven z logu klavesou Q
+## Vrácení se ke starým verzím projektu
+---
 
-**git restore --staged jmenosouboru** pokud nechces
-commit. nechces pridat zmenu do nove verze
+přes `git log` si  najdi `commit`, `číslo` (hash) a zkopíruj ho,\
+potom napiš do konzole `git checkout` a číslo které jsi si nechal v schránce vlož.
 
-**git restore --staged .** všechno v adresari
+**Takhe nějak by to mělo vypadat:**
 
-přeskočeni git add
-**git commit -am ‘komentar’** pro nové soubory
-**git commit -a** pro jiz commitle soubory
+```
+git log 
+git checkout 894d12f8fccc6feaeb586ac6b3ce64ac3c35d332
+```
 
+## Co je to ta větev ang.(branch)
+---
+Vždycky když začínáš nový projekt a přes `git init` inicializuješ složku se vytvaří tzv. `branch`, zatím je jen jedna a to ta hlavní, jmenuje se `main`. Později můžeš mít větví daleko víc, záleží na rozsáhlosti projektu. Většinou má programátor dvě nebo tři větve s kterými pracuje. 
+```
+git branch - ukáže všechny větve(branch)
 
-**git diff** zobrazi zmeny v souborech
+git branch jmeno - vytvoří novou větev
 
+git checkout jmeno - změna větve
 
-**git checkout -- jmeno souboru** 
-vrati do posledni commitle verze
-
-vracenï se ke starym verzim
-
-přes git log najdi si commit a číslo
-potom napiš git checkout a cislo
-
-zpět se dostaneš přes git checkout master
-
-
-master je hlavni vetev kodu
+git branch -d jmeno -vymazání větve (lokálně)
+```
 
 
-**git clone a http adresa**, nakopiruje vše z githubu
+### další příkazy
+```
+git pull origin master natahne zmeny z githubu
+git merge
 
-**git pull origin master** natahne zmeny z githubu
-**git merge** 
-
-**git push origin master** dáváme soubory na internet - github
-**git remote update** natahne info ze serveru
+git remote update natahne info ze serveru
 pote git status a info ze zobrazi
+```
 
-**git branch** nazev vytovreni nove vetve
 
-**git checkout** nazev zmena vetve 
 
 <p>
 Some Markdown text with <span style="color:red">git update-git-for-windows** update gitu </span>.
@@ -123,11 +175,6 @@ Some Markdown text with <span style="color:red">git update-git-for-windows** upd
 </p>
 
 
-**git update-git-for-windows** update gitu 
-
-
-
-git remote add origin pridani na github
 
 
 
